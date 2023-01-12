@@ -40,3 +40,25 @@ end
 unless true  do
   IO.puts("No")
 end
+
+if nil do
+  IO.puts("No")
+else
+  IO.puts("Yes")
+end
+
+if true, do: IO.puts(1 + 2)
+
+if false, do: :this, else: :that
+
+if true do
+  a = 1 + 10
+  IO.puts(a)
+end
+
+if true, do: (
+  a = 1 + 10
+  IO.puts(a)
+)
+
+IO.puts(if false do 1 + 2 else 10 end)
