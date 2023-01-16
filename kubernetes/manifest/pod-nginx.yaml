@@ -8,7 +8,7 @@ spec:
     image: nginx:alpine
     imagePullPolicy: Always
     command: []
-    args: ["nginx", "-g", "daemon off;"]
+    args: ["nginx", "-g", "deamon off;"]
     env:
     - name: HOGEHOGE
       value: fugafuga
