@@ -16,8 +16,8 @@ spec:
         sleep 1
       done
     volumeMounts:
-      - name: log-volume
-        mountPath: /var/log/date-tail
+    - name: log-volume
+      mountPath: /var/log/date-tail
   - name: tail
     image: alpine
     command: ["sh", "-c"]
@@ -29,5 +29,6 @@ spec:
       mountPath: /var/log/date-tail
   volumes:
   - name: log-volume
-    emptyDir:
+    hostPath:
+      path: /data/date-tail
   terminationGracePeriodSeconds: 0
