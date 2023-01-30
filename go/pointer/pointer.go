@@ -21,4 +21,11 @@ func main() {
 	p := &i
 	fmt.Println(*p)
 
+	pointerVal.Greet("my name")
+	println(pointerVal.Name)
+}
+
+func (p *Person) Greet(msg string){
+	(*p).Name = msg
+	println(p.Name)
 }

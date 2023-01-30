@@ -1,16 +1,24 @@
+
 package main
 
 import "fmt"
 
 type Square struct {
-	x, y int
+	X, Y int
 }
 
-func Area(s Square) int {
-	return s.x * s.y
+func (s *Square) Area() int {
+	return s.X * s.Y
+}
+
+func (s *Square) Change() {
+	s.X = 10
+	s.Y = 10
 }
 
 func main() {
 	s := Square {5, 5}
-	fmt.Println(Area(s))
+	fmt.Println(s.Area())
+	s.Change()
+	fmt.Println(s.Area())
 }

@@ -3,15 +3,16 @@ package main
 import "fmt"
 
 type Square struct {
-	X, Y int
+	x, y int
 }
 
-func (s *Square) Area() int {
-	return s.X * s.Y
+func Area(s Square) int {
+	return s.x * s.y
 }
+
+
 
 func main() {
-	s := Square {5, 5}
-	fmt.Println(s.Area())
+	s := Square{5, 5}
+	fmt.Println(Area(s))
 }
-
