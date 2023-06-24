@@ -70,15 +70,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-test-junit5</artifactId>
-            <version>1.8.21</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.8.2</version>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.8.1</version> <!-- 版を適切に更新してください -->
             <scope>test</scope>
         </dependency>
 
@@ -86,11 +80,6 @@
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib-jdk8</artifactId>
             <version>1.8.21</version>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.10.0-M1</version>
         </dependency>
     </dependencies>
 </project>
