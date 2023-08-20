@@ -1,3 +1,9 @@
+
+# React Training
+
+<br>
+
+## 環境
 ```
 node -v
 v18.16.1
@@ -8,8 +14,16 @@ npm -v
 npx -v
 9.5.1
 ```
+<br>
 
-# todo-app/<br>
+## ディレクトリ
 
-こちらの記事を再現<br>
-https://qiita.com/tseno/items/b7133d73966c405b7249<br>
+### todo-app
+
+```
+# アプリ作成コマンド
+npx create-react-app todo-app --template typescript
+```
+
+こちらの記事を再現  
+https://qiita.com/tseno/items/b7133d73966c405b7249  
