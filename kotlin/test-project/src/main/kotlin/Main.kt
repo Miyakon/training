@@ -1,15 +1,18 @@
-import syntax.MyData
+
 
 fun main(args: Array<String>) {
-    val myData = MyData(10);
-    myData.test1();
-    myData.name = "Miyako";
+//    val kanojo = Kanojo()
+//    println(kanojo.stable());
 
-    ifExpression(true)
-    ifExpression(false)
+//    val myData = MyData(10);
+//    myData.test1();
+//    myData.name = "Miyako";
+//
+//    ifExpression(true)
+//    ifExpression(false)
 }
 
-fun ifExpression(condition: Boolean) {
-    val value: String = if (condition) "Hi, true" else "Hey, false"
-    println(value)
-}
+//fun ifExpression(condition: Boolean) {
+//    val value: String = if (condition) "Hi, true" else "Hey, false"
+//    println(value)
+//}
