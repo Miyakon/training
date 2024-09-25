@@ -1,5 +1,0 @@
-package syntax
-
-class MySyntax {
-
-}
